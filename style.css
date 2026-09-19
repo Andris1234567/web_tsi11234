@@ -107,4 +107,12 @@ a:hover {
     a {
         display: none;
     }
+    .hamlet-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
 }
