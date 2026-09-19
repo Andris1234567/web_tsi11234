@@ -1,5 +1,4 @@
 
-/* Common content block */
 .hamlet-content {
     display: flow-root;
     background-color: #fffdf8;
@@ -8,29 +7,35 @@
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* Hamlet image */
 .hamlet-image {
     float: left;
     width: 300px;
-    height: auto;
     margin: 0 25px 15px 0;
+}
+
+.hamlet-image img {
+    display: block;
+    width: 100%;
+    height: auto;
     border: 3px solid #8b7355;
     border-radius: 10px;
 }
 
-/* Author */
+.hamlet-text {
+    display: contents;
+}
+
 .author {
     font-size: 18px;
     line-height: 1.8;
     margin: 0;
 }
 
-/* Poem paragraphs */
 .hamlet-content p {
     font-size: 18px;
     line-height: 1.8;
     white-space: pre-line;
-    margin: 0 0 22px;
+    margin: 0 0 20px;
     padding: 0;
     background: transparent;
     border: none;
@@ -39,11 +44,6 @@
 
 .hamlet-content p:last-child {
     margin-bottom: 0;
-}
-
-/* Social links */
-.social-links {
-    margin-top: 20px;
 }
 
 /* Mobile */
