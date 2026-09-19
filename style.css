@@ -107,12 +107,14 @@ a:hover {
     a {
         display: none;
     }
-    .hamlet-image {
+.hamlet-image {
+    display: block;
     width: 300px;
     height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 3px solid #8b7355;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 }
