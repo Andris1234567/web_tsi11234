@@ -29,6 +29,16 @@ p {
     white-space: pre-line;
 }
 
+/* Hamlet image */
+.hamlet-image {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 0 25px 15px 0;
+    border: 3px solid #8b7355;
+    border-radius: 10px;
+}
+
 /* Social links */
 a {
     display: inline-block;
@@ -82,6 +92,14 @@ a:hover {
         text-align: center;
         margin: 10px 0;
     }
+
+    .hamlet-image {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
 }
 
 /* Print version */
@@ -107,15 +125,4 @@ a:hover {
     a {
         display: none;
     }
-.hamlet-image {
-    float: left;
-    width: 300px;
-    height: auto;
-    margin: 0 25px 15px 0;
-    border: 3px solid #8b7355;
-    border-radius: 10px;
-}
-
-
-
 }
