@@ -108,15 +108,14 @@ a:hover {
         display: none;
     }
 .hamlet-image {
-    display: block;
-    width: 100%;
-    max-width: 500px;
+    float: left;
+    width: 300px;
     height: auto;
-    margin: 30px auto;
-    border-radius: 10px;
+    margin: 0 25px 15px 0;
     border: 3px solid #8b7355;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
+
 
 
 }
